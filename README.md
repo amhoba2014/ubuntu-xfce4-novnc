@@ -31,7 +31,7 @@ docker build -t ubuntu-xfce4-novnc .
 3. **Run the container:**
 
 ```bash
-docker run -it -p 9876:9090 --name ubuntu-container ubuntu-docker
+docker run -it -p 9876:9090 --name ubuntu-container ubuntu-xfce4-novnc
 ```
 
 Replace `9876` with a any port on your host system if you will.
